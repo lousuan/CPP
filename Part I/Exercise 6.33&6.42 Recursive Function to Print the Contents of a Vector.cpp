@@ -4,11 +4,14 @@ using namespace std;
 
 void print(vector<int> &v, int n)
 {
-    if (n != 0) 
-	
+    if (n > 0)
+    {
 		print(v, n-1);
-    	cout << v[n] << " ";
-	
+    	cout << v[n-1] << " ";
+        #ifndef NDEBUG
+            cout << n << endl;
+        #endif
+	}
 }
 
 int main()

@@ -5,6 +5,9 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Visual Studio Code config file
+.vscode
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
